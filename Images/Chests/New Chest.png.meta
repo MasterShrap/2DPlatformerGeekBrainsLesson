@@ -57,7 +57,7 @@ TextureImporter:
       213: -8983073437581984488
     second: Chest Sheet-4096x1024(2x)_17
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -74,10 +74,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -116,6 +118,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -155,6 +159,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -556,9 +572,27 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Chest Sheet-4096x1024(2x)_6: -1482816690967280222
+      Chest Sheet-4096x1024(2x)_10: 3266240025276418421
+      Chest Sheet-4096x1024(2x)_4: 4329490637192805727
+      Chest Sheet-4096x1024(2x)_1: 5746009849027895084
+      Chest Sheet-4096x1024(2x)_8: -1647545573122175328
+      Chest Sheet-4096x1024(2x)_11: -8741022620407743833
+      Chest Sheet-4096x1024(2x)_2: -6489261816684481392
+      Chest Sheet-4096x1024(2x)_15: -5341118013397025463
+      Chest Sheet-4096x1024(2x)_16: 8878784510736327569
+      Chest Sheet-4096x1024(2x)_17: -8983073437581984488
+      Chest Sheet-4096x1024(2x)_9: 196339916041195364
+      Chest Sheet-4096x1024(2x)_5: 5649908203060996640
+      Chest Sheet-4096x1024(2x)_0: -2318594919933122682
+      Chest Sheet-4096x1024(2x)_12: 3329822953400318428
+      Chest Sheet-4096x1024(2x)_3: 4688544387436558392
+      Chest Sheet-4096x1024(2x)_14: 6022093948794603594
+      Chest Sheet-4096x1024(2x)_13: 6868726136007124070
+      Chest Sheet-4096x1024(2x)_7: 580939761126273010
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
